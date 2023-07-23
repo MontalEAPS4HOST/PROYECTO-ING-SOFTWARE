@@ -38,7 +38,11 @@
                     {{ __('Forgot your password?') }}
                 </a>
             @endif
+            <a href="/google-auth/redirect" class="ml-3" title="Iniciar sesión por Gmail">
+                <img src="{{ URL::to('build/assets/iconos/Google__G__Logo.svg') }}" alt="G">
+            </a>
 
+            
             <x-primary-button class="ml-3">
                 {{ __('Log in') }}
             </x-primary-button>
